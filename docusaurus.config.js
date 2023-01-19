@@ -9,7 +9,7 @@ const config = {
   title: 'NinoHub',
   tagline: 'アプリ開発する人',
   url: 'https://io.github.com.ninohub',
-  baseUrl: '/',
+  baseUrl: '/ninohub',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -33,7 +33,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/ninohub',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
