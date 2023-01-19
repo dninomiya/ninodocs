@@ -106,7 +106,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/dninomiya/ninohub',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
             position: 'right',
@@ -154,7 +154,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/dninomiya/ninohub',
               },
             ],
           },
