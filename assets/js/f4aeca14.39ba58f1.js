@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkflock_wiki=self.webpackChunkflock_wiki||[]).push([[930],{5687:e=>{e.exports=JSON.parse('{"permalink":"/ninohub/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
