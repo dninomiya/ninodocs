@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkflock_wiki=self.webpackChunkflock_wiki||[]).push([[782],{3256:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/ninohub/blog/tags/facebook","allTagsPath":"/ninohub/blog/tags","count":1}')}}]);

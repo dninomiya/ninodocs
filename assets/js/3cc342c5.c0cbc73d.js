@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkninolog=self.webpackChunkninolog||[]).push([[4661],{9977:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/ninolog/blog/tags/facebook","allTagsPath":"/ninolog/blog/tags","count":1}')}}]);
