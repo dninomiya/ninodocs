@@ -58,6 +58,7 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+      image: '/img/preview.png',
       navbar: {
         title: 'NinoHub',
         logo: {
