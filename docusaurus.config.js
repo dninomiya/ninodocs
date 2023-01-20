@@ -121,7 +121,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'NinoGuideについて',
+                label: 'NinoLogについて',
                 to: '/',
               },
               {
