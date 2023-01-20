@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# NinoLog とは
+# NinoDoc とは
 
 ## どんなサイト？
 

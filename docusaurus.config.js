@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NinoLog',
+  title: 'NinoDoc',
   tagline: 'アプリ開発する人',
   url: 'https://dninomiya.github.io',
-  baseUrl: '/ninolog',
+  baseUrl: '/ninodoc',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'dninomiya', // Usually your GitHub org/user name.
-  projectName: 'ninolog', // Usually your repo name.
+  projectName: 'ninodoc', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,13 +37,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/dninomiya/ninolog/edit/main/',
+          editUrl: 'https://github.com/dninomiya/ninodoc/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/dninomiya/ninolog/edit/main/',
+          editUrl: 'https://github.com/dninomiya/ninodoc/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,9 +60,9 @@ const config = {
       },
       image: '/img/preview.png',
       navbar: {
-        title: 'NinoLog',
+        title: 'NinoDoc',
         logo: {
-          alt: 'NinoLog Logo',
+          alt: 'NinoDoc Logo',
           src: 'img/logo.PNG',
         },
         items: [
@@ -80,13 +80,13 @@ const config = {
             className: 'header-next-link',
             label: 'Webアプリ',
           },
-          {
-            type: 'doc',
-            docId: 'flutter/intro',
-            position: 'left',
-            className: 'header-flutter-link',
-            label: 'モバイルアプリ',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'flutter/intro',
+          //   position: 'left',
+          //   className: 'header-flutter-link',
+          //   label: 'モバイルアプリ',
+          // },
           {
             type: 'doc',
             docId: 'firebase/intro',
@@ -107,7 +107,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/dninomiya/ninolog',
+            href: 'https://github.com/dninomiya/ninodoc',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
             position: 'right',
@@ -121,7 +121,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'NinoLogについて',
+                label: 'NinoDocについて',
                 to: '/',
               },
               {
@@ -132,10 +132,10 @@ const config = {
                 label: 'Webアプリ',
                 to: '/web/intro',
               },
-              {
-                label: 'NinoLogについて',
-                to: '/flutter/intro',
-              },
+              // {
+              //   label: 'モバイルアプリ',
+              //   to: '/flutter/intro',
+              // },
               {
                 label: 'Firebase',
                 to: '/firebase/intro',
@@ -159,7 +159,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/dninomiya/ninolog',
+                href: 'https://github.com/dninomiya/ninodoc',
               },
             ],
           },
