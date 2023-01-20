@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkninolog=self.webpackChunkninolog||[]).push([[2796],{7278:o=>{o.exports=JSON.parse('{"permalink":"/ninolog/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

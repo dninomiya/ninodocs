@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkninolog=self.webpackChunkninolog||[]).push([[2989],{2825:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/ninolog/blog/tags/hello","allTagsPath":"/ninolog/blog/tags","count":2}')}}]);
