@@ -82,4 +82,6 @@ ReferenceError: "ユーザー太郎" is not defined
 javascript ReferenceError is not defined
 ```
 
-するとそれらしい答えが検索結果に表示されます。このようにしてエラーと向き合って調べながらトラブルを解決していきます。
+するとそれらしい答えが検索結果に表示されます。このようにしてエラーと向き合って調べながらトラブルを解決します。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/300fYfLSbxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

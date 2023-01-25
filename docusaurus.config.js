@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NinoDoc',
+  title: 'NinoDoc（β）',
   tagline: 'アプリ開発する人',
   url: 'https://dninomiya.github.io',
   baseUrl: '/ninodoc',
@@ -60,7 +60,7 @@ const config = {
       },
       image: '/img/preview.png',
       navbar: {
-        title: 'NinoDoc',
+        title: 'NinoDoc（β）',
         logo: {
           alt: 'NinoDoc Logo',
           src: 'img/logo.PNG',
@@ -80,13 +80,13 @@ const config = {
             className: 'header-next-link',
             label: 'Webアプリ',
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'flutter/intro',
-          //   position: 'left',
-          //   className: 'header-flutter-link',
-          //   label: 'モバイルアプリ',
-          // },
+          {
+            type: 'doc',
+            docId: 'flutter/intro',
+            position: 'left',
+            className: 'header-flutter-link',
+            label: 'モバイルアプリ',
+          },
           {
             type: 'doc',
             docId: 'firebase/intro',
@@ -132,10 +132,10 @@ const config = {
                 label: 'Webアプリ',
                 to: '/web/intro',
               },
-              // {
-              //   label: 'モバイルアプリ',
-              //   to: '/flutter/intro',
-              // },
+              {
+                label: 'モバイルアプリ',
+                to: '/flutter/intro',
+              },
               {
                 label: 'Firebase',
                 to: '/firebase/intro',
