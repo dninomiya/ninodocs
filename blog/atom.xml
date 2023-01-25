@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dninomiya.github.io/ninodoc/blog</id>
-    <title>NinoDoc Blog</title>
+    <title>NinoDoc（β） Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dninomiya.github.io/ninodoc/blog"/>
-    <subtitle>NinoDoc Blog</subtitle>
+    <subtitle>NinoDoc（β） Blog</subtitle>
     <icon>https://dninomiya.github.io/ninodoc/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
