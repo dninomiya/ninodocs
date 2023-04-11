@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkninodoc=self.webpackChunkninodoc||[]).push([[2915],{9933:o=>{o.exports=JSON.parse('{"label":"docusaurus","permalink":"/ninodoc/blog/tags/docusaurus","allTagsPath":"/ninodoc/blog/tags","count":4}')}}]);
