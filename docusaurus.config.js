@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NinoDoc（β）',
+  title: 'NinoDocs',
   tagline: 'アプリ開発する人',
   url: 'https://dninomiya.github.io',
-  baseUrl: '/ninodoc',
+  baseUrl: '/ninodocs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'dninomiya', // Usually your GitHub org/user name.
-  projectName: 'ninodoc', // Usually your repo name.
+  projectName: 'ninodocs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,13 +37,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/dninomiya/ninodoc/edit/main/',
+          editUrl: 'https://github.com/dninomiya/ninodocs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/dninomiya/ninodoc/edit/main/',
+          editUrl: 'https://github.com/dninomiya/ninodocs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,54 +60,14 @@ const config = {
       },
       image: '/img/preview.png',
       navbar: {
-        title: 'NinoDoc（β）',
+        title: 'NinoDocs',
         logo: {
           alt: 'NinoDoc Logo',
-          src: 'img/logo.PNG',
+          src: 'img/avatar.png',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'basic/intro',
-            position: 'left',
-            label: '基礎知識',
-            className: 'header-vscode-link',
-          },
-          {
-            type: 'doc',
-            docId: 'web/intro',
-            position: 'left',
-            className: 'header-next-link',
-            label: 'Webアプリ',
-          },
-          {
-            type: 'doc',
-            docId: 'flutter/intro',
-            position: 'left',
-            className: 'header-flutter-link',
-            label: 'モバイルアプリ',
-          },
-          {
-            type: 'doc',
-            docId: 'firebase/intro',
-            position: 'left',
-            className: 'header-firebase-link',
-            label: 'Firebase',
-          },
-          {
-            href: 'https://www.youtube.com/channel/UCUPq5dKFGnOziaqYI-ejYcg',
-            className: 'header-youtube-link',
-            'aria-label': 'YouTube',
-            position: 'right',
-          },
-          {
-            href: 'https://discord.gg/QeKNfAw6cK',
-            className: 'header-discord-link',
-            'aria-label': 'Discord',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/dninomiya/ninodoc',
+            href: 'https://github.com/dninomiya/ninodocs',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
             position: 'right',
@@ -117,31 +77,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'NinoDocについて',
-                to: '/',
-              },
-              {
-                label: '基礎知識',
-                to: '/basic/intro',
-              },
-              {
-                label: 'Webアプリ',
-                to: '/web/intro',
-              },
-              {
-                label: 'モバイルアプリ',
-                to: '/flutter/intro',
-              },
-              {
-                label: 'Firebase',
-                to: '/firebase/intro',
-              },
-            ],
-          },
           {
             title: 'リンク',
             items: [
@@ -154,12 +89,8 @@ const config = {
                 href: 'https://twitter.com/d151005',
               },
               {
-                label: 'YouTube',
-                href: 'https://www.youtube.com/channel/UCUPq5dKFGnOziaqYI-ejYcg',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/dninomiya/ninodoc',
+                href: 'https://github.com/dninomiya/ninodocs',
               },
             ],
           },
