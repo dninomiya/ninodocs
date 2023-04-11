@@ -77,6 +77,22 @@
   filter: grayscale(1) invert(1);
 }
 
+.header-twitter-link:hover {
+  opacity: .6
+}
+
+.header-twitter-link:before {
+  background: url('data:image/svg+xml;charset=utf8,%3Csvg%20role%3D%22img%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3ETwitter%3C%2Ftitle%3E%3Cpath%20d%3D%22M23.953%204.57a10%2010%200%2001-2.825.775%204.958%204.958%200%20002.163-2.723c-.951.555-2.005.959-3.127%201.184a4.92%204.92%200%2000-8.384%204.482C7.69%208.095%204.067%206.13%201.64%203.162a4.822%204.822%200%2000-.666%202.475c0%201.71.87%203.213%202.188%204.096a4.904%204.904%200%2001-2.228-.616v.06a4.923%204.923%200%20003.946%204.827%204.996%204.996%200%2001-2.212.085%204.936%204.936%200%20004.604%203.417%209.867%209.867%200%2001-6.102%202.105c-.39%200-.779-.023-1.17-.067a13.995%2013.995%200%20007.557%202.209c9.053%200%2013.998-7.496%2013.998-13.985%200-.21%200-.42-.015-.63A9.935%209.935%200%200024%204.59z%22%2F%3E%3C%2Fsvg%3E') no-repeat;
+  content: "";
+  display: flex;
+  height: 24px;
+  width: 24px
+}
+
+[data-theme=dark] .header-twitter-link:before {
+  filter: grayscale(1) invert(1);
+}
+
 .header-flutter-link {
   display: flex;
   align-items: center;

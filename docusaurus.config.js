@@ -67,11 +67,33 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/dninomiya/ninodocs',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
+            href: '/',
+            label: 'ドキュメント',
+          },
+          // {
+          //   href: 'https://discord.gg/QeKNfAw6cK',
+          //   className: 'header-discord-link',
+          //   'aria-label': 'Discord',
+          //   position: 'right',
+          // },
+          // {
+          //   href: 'https://www.youtube.com/channel/UCUPq5dKFGnOziaqYI-ejYcg',
+          //   className: 'header-youtube-link',
+          //   'aria-label': 'YouTube',
+          //   position: 'right',
+          // },
+          {
+            href: 'https://twitter.com/d151005',
+            className: 'header-twitter-link',
+            'aria-label': 'Twitter',
             position: 'right',
           },
+          // {
+          //   href: 'https://github.com/dninomiya/ninodocs',
+          //   className: 'header-github-link',
+          //   'aria-label': 'GitHub repository',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -83,6 +105,10 @@ const config = {
               {
                 label: 'Discord',
                 href: 'https://discord.gg/QeKNfAw6cK',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCUPq5dKFGnOziaqYI-ejYcg',
               },
               {
                 label: 'Twitter',
